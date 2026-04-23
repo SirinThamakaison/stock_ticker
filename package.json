@@ -1,0 +1,15 @@
+{
+  "name": "stock-part2-web",
+  "version": "1.0.0",
+  "description": "CS20 Part 2 - search Stock.PublicCompanies (Heroku)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mongodb": "^4.17.2"
+  },
+  "engines": {
+    "node": "18.x || 20.x || 22.x"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Stock lookup</title>
+</head>
+<body>
+  <h1>Stock / company lookup</h1>
+  <p>Enter a <strong>company name</strong> or a <strong>ticker symbol</strong>, then pick which one you typed.</p>
+
+  <form method="get" action="/process">
+    <label>
+      Search:
+      <input type="text" name="search" size="40" required>
+    </label>
+    <br><br>
+
+    <label><input type="radio" name="how" value="company" checked> Company name</label>
+    <br>
+    <label><input type="radio" name="how" value="ticker"> Ticker symbol</label>
+    <br><br>
+
+    <input type="submit" value="Search">
+  </form>
+</body>
+</html>
