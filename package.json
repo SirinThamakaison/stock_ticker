@@ -1,7 +1,7 @@
 {
   "name": "stock-part2-web",
   "version": "1.0.0",
-  "description": "CS20 Part 2 - search Stock.PublicCompanies (Heroku)",
+  "description": "CS20 stock ticker part 2",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
